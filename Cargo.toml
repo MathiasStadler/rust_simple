@@ -10,8 +10,11 @@ edition = "2021"
 
 
 [[bench]]
-name = "my_benchmark"
+name = "test_criterion"
 harness = false
 
 [dev-dependencies]
 criterion = "0.5.1"
+
+[[example]]
+name="simple_math_addition"

@@ -15,12 +15,12 @@ fn addition(a: i32, b: i32) -> i32 {
 }
 
 #[cfg(test)]
-mod test {
+pub mod test {
 
     use super::*;
 
     #[test]
-    fn first_simple_easy_successful_test() {
+    pub fn first_simple_easy_successful_test() {
         assert_eq!(1, 1);
     }
 

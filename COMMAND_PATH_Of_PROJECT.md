@@ -35,14 +35,14 @@ touch simple_math_subtraction
 ## run examples
 
 ```bash
-cargo run  --example simple_math_addition
-cargo run  --example simple_math_subtraction
+cargo run --example simple_math_addition
+cargo run --example simple_math_subtraction
 ```
 
 ## run test
 
 ```bash
-cargo test  --example simple_math_addition
+cargo test --example simple_math_addition
 ```
 
 ## add criterion lib in Cargo.toml dev-dependencies section
@@ -87,10 +87,3 @@ criterion_group!(benches, criterion_benchmark);
 criterion_main!(benches);
 END
 ```
-
-
-
-
-
-mkdir benches
-trapapa@trapapa-ThinkPad-T430:~/rust_simple$ touch benches/my_benchmark.rs
